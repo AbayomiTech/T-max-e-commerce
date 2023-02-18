@@ -1,0 +1,157 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: white;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ padding-top: 20px;
+}
+nav ul li{
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: rgb(145, 7, 7);
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: all ease-in 0.5s;
+}
+nav ul li a:hover{
+  color: blue;
+  opacity: 1;
+}
+nav .social-icons a{
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(1, 113, 11);
+  text-decoration: none;
+}
+nav .social-icons a:hover{
+  color: black;
+  opacity: 1;
+}
+header{
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1598099947145-e85739e7ca28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+background-size: cover;
+position: relative;
+}
+header .hero{
+  position: absolute;
+  left: 10%;
+  top: 100px;
+}
+header .hero h1{
+  background: linear-gradient(90deg,#822525,#f3d704);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 30px;
+  font-size: 60px;
+  line-height: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 20px;
+ 
+}
+header .hero p{
+  font-family: 'Dancing Script';
+  font-size: 40px;
+}
+header .hero p:first-child{
+  color: red;
+}
+header .hero p:last-child{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header .hero .btn{
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  
+}
+header .hero .btn:hover{
+  box-shadow: 5px 5px 5px grey;
+}
+main{
+padding: 20px 20px;
+text-align: center;
+background-image: url(https://img.freepik.com/free-photo/attractive-woman-dressed-casually-looking-with-doubts-aside-while-standing-near-hangers-with-clothes-thinking-what-dress-business-meeting-with-companions-woman-fashion-having-many-clothes_273609-180.jpg?w=2000);
+}
+main .row{
+display: flex;
+justify-content: space-evenly;
+}
+main .item{
+
+}
+main .row .items img{
+  width: 250px;
+  height: 250px;
+  transition: all ease-in 0.5s;
+}
+main .row .items img:hover{
+  transform: scale(1.1);
+
+}
+main .row .items h3{
+  font-size: 20px;
+  color: red;
+}
+main .row .items button{
+  padding: 10px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all linear 1s;
+}
+main .row .items button:hover{
+  background-color: rgb(71, 71, 71);
+  box-shadow: 0 02px;
+}
+#icon:hover{
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+#contact{
+  height: 300px;
+  background-color: black;
+  padding: 20px;
+  color: green;
+
+}
+#contact .row{
+  display: flex;
+  justify-content: space-evenly ;
+}
+#contact .row .left-side{
+  text-align: center;
+}
+footer{
+  width: 100%;
+  height: 1000%;
+  display: flex;
+  justify-content: space-evenly;
+ align-items: center;
+ padding-top: 20px;
+ background-color: black;
+ border-top: 2px solid green;
+}
+
+.sm a{
+  padding: 10px;
+  margin-left: 15px;
+  font-size: 20px;
+  color: rgb(1, 113, 11);
+  text-decoration: none;
+}
+.sm a:hover{
+  color: rgb(241, 237, 237);
+}
